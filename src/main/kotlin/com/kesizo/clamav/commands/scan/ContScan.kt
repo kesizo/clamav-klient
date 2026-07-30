@@ -1,11 +1,11 @@
-package xyz.capybara.clamav.commands.scan
+package com.kesizo.clamav.commands.scan
 
 import java.nio.ByteBuffer
 import java.nio.charset.StandardCharsets
 
-internal class MultiScan(private val path: String) : ScanCommand() {
+internal class ContScan(private val path: String) : ScanCommand() {
     override val commandString
-        get() = "MULTISCAN"
+        get() = "CONTSCAN"
 
     override val format
         get() = CommandFormat.NEW_LINE

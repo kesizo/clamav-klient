@@ -1,6 +1,6 @@
-package xyz.capybara.clamav.commands
+package com.kesizo.clamav.commands
 
-import xyz.capybara.clamav.InvalidResponseException
+import com.kesizo.clamav.InvalidResponseException
 
 internal object VersionCommands : Command<Collection<String>>() {
     private const val COMMANDS_START_TAG = "| COMMANDS:"

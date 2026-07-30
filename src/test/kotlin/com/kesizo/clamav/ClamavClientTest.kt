@@ -1,4 +1,4 @@
-package xyz.capybara.clamav
+package com.kesizo.clamav
 
 
 import java.net.InetSocketAddress

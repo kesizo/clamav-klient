@@ -1,4 +1,4 @@
-package xyz.capybara.clamav
+package com.kesizo.clamav
 
 import mu.KotlinLogging
 import org.assertj.core.api.BDDAssertions.then
@@ -9,7 +9,7 @@ import org.testcontainers.containers.GenericContainer
 import org.testcontainers.containers.output.Slf4jLogConsumer
 import org.testcontainers.junit.jupiter.Container
 import org.testcontainers.junit.jupiter.Testcontainers
-import xyz.capybara.clamav.commands.scan.result.ScanResult
+import com.kesizo.clamav.commands.scan.result.ScanResult
 import java.nio.file.Path
 import java.nio.file.Paths
 import java.util.*

@@ -1,9 +1,9 @@
-package xyz.capybara.clamav.commands.scan
+package com.kesizo.clamav.commands.scan
 
-import xyz.capybara.clamav.InvalidResponseException
-import xyz.capybara.clamav.ScanFailureException
-import xyz.capybara.clamav.commands.Command
-import xyz.capybara.clamav.commands.scan.result.ScanResult
+import com.kesizo.clamav.InvalidResponseException
+import com.kesizo.clamav.ScanFailureException
+import com.kesizo.clamav.commands.Command
+import com.kesizo.clamav.commands.scan.result.ScanResult
 
 internal abstract class ScanCommand : Command<ScanResult>() {
 

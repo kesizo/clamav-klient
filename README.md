@@ -1,11 +1,14 @@
 # Java ClamAV Client Library
 [![Build Status](https://github.com/cdarras/clamav-client/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/cdarras/clamav-client/actions/workflows/maven.yml) [![Maven Central](https://img.shields.io/maven-central/v/xyz.capybara/clamav-client.svg)](https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22xyz.capybara%22%20AND%20a%3A%22clamav-client%22)
 
-A simple yet efficient Java client library for the [ClamAV antivirus](https://www.clamav.net/) daemon.
+This project is a fork of [clamav-client](https://github.com/cdarras/clamav-client) by Clement Darras, licensed under MIT.
+Modifications copyright (c) 2026 Miguel Doctor for kesizo. Licensed under MIT.
+
+A simple yet efficient JVM client library for the [ClamAV antivirus](https://www.clamav.net/) daemon.
 
 ## Pre-requisites
 
-This library requires a JDK version 8.
+This library requires a JDK version 17 or higher.
 
 ## Installing
 
@@ -169,5 +172,8 @@ You can also submit issues in case of bugs or feature requests.
 
 ## Licensing
 
-The code in this project is licensed under MIT license.
-The content of the license can be found in the `LICENSE` file under the root of this repository.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### Original Project
+This project is forked from [clamav-client](https://github.com/cdarras/clamav-client) by Clement Darras, licensed under MIT.
+The original MIT license is preserved in the LICENSE file.

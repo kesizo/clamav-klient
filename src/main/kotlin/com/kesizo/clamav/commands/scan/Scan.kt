@@ -1,4 +1,4 @@
-package xyz.capybara.clamav.commands.scan
+package com.kesizo.clamav.commands.scan
 
 import java.nio.ByteBuffer
 import java.nio.charset.StandardCharsets
