@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.kesizo</groupId>
-    <artifactId>clamav-client</artifactId>
+    <artifactId>clamav-klient</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 

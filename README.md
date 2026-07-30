@@ -1,5 +1,5 @@
-# Java ClamAV Client Library
-[![Build Status](https://github.com/cdarras/clamav-client/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/cdarras/clamav-client/actions/workflows/maven.yml) [![Maven Central](https://img.shields.io/maven-central/v/xyz.capybara/clamav-client.svg)](https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22xyz.capybara%22%20AND%20a%3A%22clamav-client%22)
+# Kotlin ClamAV Client Library
+[![Build Status](https://github.com/kesizo/clamav-klient/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/kesizo/clamav-klient/actions/workflows/maven.yml [![Maven Central](https://img.shields.io/maven-central/v/io.github.kesizo/clamav-klient.svg)](https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22xyz.capybara%22%20AND%20a%3A%22clamav-client%22)
 
 This project is a fork of [clamav-client](https://github.com/cdarras/clamav-client) by Clement Darras, licensed under MIT.
 Modifications copyright (c) 2026 Miguel Doctor for kesizo. Licensed under MIT.
@@ -17,9 +17,9 @@ Add this dependency to the `<dependencies>` section of your `pom.xml` file:
 
 ```xml
 <dependency>
-    <groupId>xyz.capybara</groupId>
-    <artifactId>clamav-client</artifactId>
-    <version>2.1.3</version>
+    <groupId>io.github.kesizo</groupId>
+    <artifactId>clamav-klient</artifactId>
+    <version>1.0.0</version>
 </dependency>
 ```
 

@@ -30,5 +30,5 @@ on:
             uses: softprops/action-gh-release@v2
             if: startsWith(github.ref, 'refs/tags/')
             with:
-              files: target/clamav-client-*.jar
+              files: target/clamav-klient-*.jar
 
