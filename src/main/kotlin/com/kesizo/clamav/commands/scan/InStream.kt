@@ -1,8 +1,8 @@
-package xyz.capybara.clamav.commands.scan
+package com.kesizo.clamav.commands.scan
 
-import xyz.capybara.clamav.commands.scan.result.ScanResult
-import xyz.capybara.clamav.CommunicationException
-import xyz.capybara.clamav.InvalidOptionValueException
+import com.kesizo.clamav.commands.scan.result.ScanResult
+import com.kesizo.clamav.CommunicationException
+import com.kesizo.clamav.InvalidOptionValueException
 
 import java.io.IOException
 import java.io.InputStream

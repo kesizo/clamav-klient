@@ -1,9 +1,9 @@
-package xyz.capybara.clamav.commands
+package com.kesizo.clamav.commands
 
 import mu.KLogging
-import xyz.capybara.clamav.ClamavException
-import xyz.capybara.clamav.CommunicationException
-import xyz.capybara.clamav.UnknownCommandException
+import com.kesizo.clamav.ClamavException
+import com.kesizo.clamav.CommunicationException
+import com.kesizo.clamav.UnknownCommandException
 import java.io.IOException
 import java.net.InetSocketAddress
 import java.nio.ByteBuffer

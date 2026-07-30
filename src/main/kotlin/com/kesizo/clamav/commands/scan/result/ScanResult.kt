@@ -1,4 +1,4 @@
-package xyz.capybara.clamav.commands.scan.result
+package com.kesizo.clamav.commands.scan.result
 
 /**
  * This class holds the result of an antivirus scan.

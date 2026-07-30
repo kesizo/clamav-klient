@@ -1,11 +1,11 @@
-package xyz.capybara.clamav
+package com.kesizo.clamav
 
-import xyz.capybara.clamav.commands.*
-import xyz.capybara.clamav.commands.scan.ContScan
-import xyz.capybara.clamav.commands.scan.InStream
-import xyz.capybara.clamav.commands.scan.MultiScan
-import xyz.capybara.clamav.commands.scan.Scan
-import xyz.capybara.clamav.commands.scan.result.ScanResult
+import com.kesizo.clamav.commands.*
+import com.kesizo.clamav.commands.scan.ContScan
+import com.kesizo.clamav.commands.scan.InStream
+import com.kesizo.clamav.commands.scan.MultiScan
+import com.kesizo.clamav.commands.scan.Scan
+import com.kesizo.clamav.commands.scan.result.ScanResult
 import java.io.File
 import java.io.InputStream
 import java.net.ConnectException

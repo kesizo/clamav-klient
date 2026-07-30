@@ -1,4 +1,4 @@
-package xyz.capybara.clamav.commands
+package com.kesizo.clamav.commands
 
 internal object Stats : Command<String>() {
     override val commandString

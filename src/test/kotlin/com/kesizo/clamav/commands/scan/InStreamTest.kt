@@ -1,4 +1,4 @@
-package xyz.capybara.clamav.commands.scan
+package com.kesizo.clamav.commands.scan
 
 import io.mockk.every
 import io.mockk.mockk
@@ -11,7 +11,7 @@ import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.ValueSource
-import xyz.capybara.clamav.InvalidOptionValueException
+import com.kesizo.clamav.InvalidOptionValueException
 import java.io.InputStream
 import java.net.SocketAddress
 import java.nio.ByteBuffer
